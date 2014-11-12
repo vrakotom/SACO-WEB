@@ -31,7 +31,7 @@
  * In production mode, flash messages redirect after a time interval.
  * In development mode, you need to click the flash message to continue.
  */
-	Configure::write('debug', 2);
+	Configure::write('debug', 1);
 
 /**
  * Configure the Error handler used to handle errors for your application. By default
@@ -52,6 +52,7 @@
 		'handler' => 'ErrorHandler::handleError',
 		'level' => E_ALL & ~E_DEPRECATED,
 		'trace' => true
+
 	));
 
 /**
@@ -84,7 +85,6 @@
  * Application wide charset encoding
  */
 	Configure::write('App.encoding', 'UTF-8');
-
 /**
  * To configure CakePHP *not* to use mod_rewrite and to
  * use CakePHP pretty URLs, remove these .htaccess
@@ -222,12 +222,12 @@
 /**
  * A random string used in security hashing methods.
  */
-	Configure::write('Security.salt', 'sAmuvutadredeyuvebrusudRapuphuhU');
+	Configure::write('Security.salt', 'DRvW98607sSmZUvW98rYDbcYmZUvW9');
 
 /**
  * A random numeric string (digits only) used to encrypt/decrypt strings.
  */
-	Configure::write('Security.cipherSeed', '26527537567783874875524777633857');
+	Configure::write('Security.cipherSeed', '2332430323393990434324393990434334324');
 
 /**
  * Apply timestamps with the last modified time to static assets (js, css, images).
